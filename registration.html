@@ -1,8 +1,45 @@
 <html>
-<title>
-REGISTRATION FORM
-</title>
-<body>
-<h1>HELLOOOOOO!!!!</h1>
+<head>
+<h1>
+<center>REGISTRATION PAGE</center>
+</h1>
+</head>
+<body bgcolor="lightblue">
+<form><center><h4>
+<label>FIRST NAME:</label>
+<input type="text" placeholder="Enter First Name" name="name" id="name" required>
+<br><br>
+<label>LAST NAME:</label>
+<input type="text" placeholder="Enter Last Name" name="name" id="name" required>
+<br><br>
+<label>DOB</label>
+<input type="date" placeholder="Enter DOB" id="dob" name="dob" required>
+<br><br>
+<label>EMAIL:</label>
+<input type="text" placeholder="Enter Email" name="email" id="email" required>
+<br><br>
+<label>GENDER:</label>
+<input type="radio" name=="gender" value="male" >MALE
+<input type="radio" name=="gender" value="female" >FEMALE
+<input type="radio" name=="gender" value="others" >OTHERS
+<br><br>
+<label>MOBIL NUMBER:</label>
+<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<br><br>
+<label>Course:</label>
+<select>
+<option value=branch>Branch</option>
+<option value=CSM>CSM</option>
+<option value=CSD>CSD</option>
+<option value=CSC>CSC</option>
+<option value=CSI>CSI</option>
+</select>
+<br><br>
+<input type="Submit" value="submit"/>
+<input type="Reset" value="reset"/>
+<br><br>
+</h4>
+</center>
+</form>
 </body>
 </html>
